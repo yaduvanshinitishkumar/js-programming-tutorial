@@ -48,9 +48,9 @@ array.forEach((element, index) => {
 
 // For of loop
 
-for (const item of array) {
-    console.log(item);
-}
+// for (const item of array) {
+//     console.log(item);
+// }
 
 const userData = {
     name: "Ruchita",
@@ -59,6 +59,6 @@ const userData = {
 
 const array2 = [userData, userData, userData, userData, userData, userData]
 
-for (const data of array2) {
-    console.log(`Name: ${data.name} Age: ${data.age}`)
+for (const element of array2) {
+    console.log(`Name: ${element.name} Age: ${element.age}`)
 }
